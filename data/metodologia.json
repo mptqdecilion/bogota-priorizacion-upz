@@ -1,0 +1,424 @@
+{
+  "checkedAt": "2026-10-16",
+  "source": {
+    "author": "Secretaría Distrital de la Mujer",
+    "year": "2025",
+    "title": "Metodología de priorización de los modelos de operación del Sistema Distrital de Cuidado",
+    "url": "https://sistemadecuidado.gov.co/wp-content/uploads/2026/02/Metodologia-Priorizacion-SIDICU-VF.pdf",
+    "pages": {
+      "stages": 14,
+      "construction": "16–18",
+      "variables": "29–31",
+      "weights": 31,
+      "categories": "32–33",
+      "map": 34,
+      "ranking": 35,
+      "limits": "39–40",
+      "territory": "41–44",
+      "approval": 47
+    }
+  },
+  "publishedWeightTotal": 100,
+  "displayedWeightSum": 99,
+  "stages": [
+    {
+      "title": {
+        "es": "Medir condiciones y necesidades",
+        "en": "Measure conditions and needs"
+      },
+      "text": {
+        "es": "Calcular el ICNC por Unidad de Planeamiento Zonal (UPZ), con información poblacional, social y de oferta institucional.",
+        "en": "Calculate the ICNC for each Zonal Planning Unit (UPZ), using population, social and institutional-service information."
+      },
+      "page": "14–18"
+    },
+    {
+      "title": {
+        "es": "Cruzar con la aptitud territorial",
+        "en": "Assess territorial suitability"
+      },
+      "text": {
+        "es": "Relacionar la prioridad con el POT, la movilidad, los proyectos urbanos y las oportunidades de localización de equipamientos.",
+        "en": "Combine priority with the land-use plan (POT), mobility, urban projects and opportunities to locate facilities."
+      },
+      "page": "41–42"
+    },
+    {
+      "title": {
+        "es": "Verificar en campo",
+        "en": "Check conditions in the field"
+      },
+      "text": {
+        "es": "Revisar equipamientos, recorridos, barreras, seguridad y accesibilidad. El índice requiere esta comprobación territorial.",
+        "en": "Review facilities, walking routes, barriers, safety and accessibility. The index requires this territorial check."
+      },
+      "page": "43–44"
+    },
+    {
+      "title": {
+        "es": "Acordar la localización",
+        "en": "Agree on the location"
+      },
+      "text": {
+        "es": "Presentar la ficha técnica a la Unidad Técnica de Apoyo (UTA), recibir observaciones y aprobar la ficha definitiva en una sesión posterior.",
+        "en": "Present the technical sheet to the Technical Support Unit (UTA), receive comments and approve the final sheet at a subsequent meeting."
+      },
+      "page": "47"
+    }
+  ],
+  "construction": [
+    {
+      "title": {
+        "es": "Seleccionar y territorializar",
+        "en": "Select and map inputs"
+      },
+      "text": {
+        "es": "Mesas técnicas seleccionan las variables y revisan las fuentes oficiales. Si el dato solo representa a la localidad, su valor se asigna a las UPZ correspondientes.",
+        "en": "Technical working groups select variables and review official sources. Values representative only at locality level are assigned to the corresponding UPZs."
+      }
+    },
+    {
+      "title": {
+        "es": "Estandarizar de 0 a 1",
+        "en": "Standardize from 0 to 1"
+      },
+      "text": {
+        "es": "Las variables se llevan a una escala común para integrar proporciones, conteos y otras medidas.",
+        "en": "Variables are brought onto a common scale to combine proportions, counts and other measures."
+      }
+    },
+    {
+      "title": {
+        "es": "Ponderar mediante ACP",
+        "en": "Weight through PCA"
+      },
+      "text": {
+        "es": "El análisis de componentes principales se realiza a nivel de localidad. Los pesos derivados de los dos primeros componentes se aplican a los insumos de las UPZ.",
+        "en": "Principal component analysis is performed at locality level. Weights derived from the first two components are applied to UPZ inputs."
+      }
+    },
+    {
+      "title": {
+        "es": "Ordenar y clasificar",
+        "en": "Rank and classify"
+      },
+      "text": {
+        "es": "El resultado compara territorios y se agrupa en cinco niveles basados en quintiles. Para Manzanas combina necesidad y capacidad institucional de acogida; los modelos móviles usan una adaptación distinta.",
+        "en": "The result compares territories and is grouped into five levels based on quintiles. For care blocks it combines need with institutional hosting capacity; mobile models use a different adaptation."
+      }
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "caregivers",
+      "weight": 23,
+      "color": "#007a79",
+      "title": {
+        "es": "Características de quienes cuidan",
+        "en": "Caregiver characteristics"
+      },
+      "sourceTitle": "Caracterización de las personas que realizan trabajos de cuidado",
+      "variables": [
+        {
+          "weight": 7,
+          "name": {
+            "es": "Cuidadoras con enfermedades crónicas diagnosticadas",
+            "en": "Women caregivers with diagnosed chronic conditions"
+          }
+        },
+        {
+          "weight": 4,
+          "name": {
+            "es": "Hogares monoparentales con jefatura femenina",
+            "en": "Single-parent households headed by women"
+          }
+        },
+        {
+          "weight": 4,
+          "name": {
+            "es": "Cuidadoras con nivel educativo máximo de secundaria incompleta",
+            "en": "Women caregivers whose highest education is incomplete secondary"
+          }
+        },
+        {
+          "weight": 8,
+          "name": {
+            "es": "Mujeres de 14 años o más dedicadas exclusivamente al trabajo doméstico y de cuidado no remunerado",
+            "en": "Women aged 14 or older exclusively doing unpaid domestic and care work"
+          }
+        }
+      ]
+    },
+    {
+      "id": "demand",
+      "weight": 23,
+      "color": "#1b2a4a",
+      "title": {
+        "es": "Demanda de trabajo doméstico y de cuidado",
+        "en": "Demand for domestic and care work"
+      },
+      "sourceTitle": "Demanda de trabajo domestico y de cuidado",
+      "variables": [
+        {
+          "weight": 7,
+          "name": {
+            "es": "Personas con discapacidad",
+            "en": "People with disabilities"
+          }
+        },
+        {
+          "weight": 8,
+          "name": {
+            "es": "Personas mayores de 60 años",
+            "en": "People older than 60"
+          }
+        },
+        {
+          "weight": 8,
+          "name": {
+            "es": "Personas de 14 años o menos",
+            "en": "People aged 14 or younger"
+          }
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "weight": 18,
+      "color": "#7768ae",
+      "title": {
+        "es": "Servicios sociales y de cuidado",
+        "en": "Social and care services"
+      },
+      "sourceTitle": "Servicios sociales y de cuidado",
+      "note": {
+        "es": "Los cuatro indicadores son dicotómicos (0/1): registran presencia o ausencia, no volumen, intensidad ni calidad del servicio (pp. 27–29).",
+        "en": "All four indicators are binary (0/1): they record presence or absence, not service volume, intensity or quality (pp. 27–29)."
+      },
+      "variables": [
+        {
+          "weight": 7,
+          "name": {
+            "es": "Capacidad territorial de atención del SIDICU (Atenciones_Infocuidado)",
+            "en": "Territorial service capacity of SIDICU (Atenciones_Infocuidado)"
+          }
+        },
+        {
+          "weight": 4,
+          "name": {
+            "es": "Manzanas del Cuidado implementadas",
+            "en": "Implemented care blocks"
+          }
+        },
+        {
+          "weight": 5,
+          "name": {
+            "es": "Concentración de servicios institucionales de salud, educación, integración social y CIOM",
+            "en": "Concentration of institutional health, education, social-inclusion and CIOM services"
+          }
+        },
+        {
+          "weight": 2,
+          "name": {
+            "es": "Concentración de servicios de seguridad",
+            "en": "Concentration of security services"
+          }
+        }
+      ]
+    },
+    {
+      "id": "norms",
+      "weight": 14,
+      "color": "#00a3a2",
+      "title": {
+        "es": "Creencias y normas sociales",
+        "en": "Social beliefs and norms"
+      },
+      "sourceTitle": "Creencias y normas sociales",
+      "variables": [
+        {
+          "weight": 4,
+          "name": {
+            "es": "Valoración negativa del cuidado como trabajo",
+            "en": "Negative valuation of care as work"
+          }
+        },
+        {
+          "weight": 5,
+          "name": {
+            "es": "Brecha de género en el tiempo diario de trabajo de cuidado no remunerado",
+            "en": "Gender gap in daily unpaid care-work time"
+          }
+        },
+        {
+          "weight": 3,
+          "name": {
+            "es": "Creencias y normas que obstaculizan redistribuir el trabajo doméstico y de cuidado no remunerado",
+            "en": "Beliefs and norms that hinder redistribution of unpaid domestic and care work"
+          }
+        },
+        {
+          "weight": 2,
+          "name": {
+            "es": "Sanción social a los hombres por asumir cuidados en los hogares",
+            "en": "Social sanctions against men for taking on care at home"
+          }
+        }
+      ]
+    },
+    {
+      "id": "poverty",
+      "weight": 13,
+      "color": "#b84512",
+      "title": {
+        "es": "Pobreza femenina",
+        "en": "Female poverty"
+      },
+      "sourceTitle": "Pobreza femenina",
+      "variables": [
+        {
+          "weight": 5,
+          "name": {
+            "es": "Informalidad laboral de las mujeres",
+            "en": "Women's informal employment"
+          }
+        },
+        {
+          "weight": 8,
+          "name": {
+            "es": "Índice de Pobreza Multidimensional en hogares con jefatura femenina",
+            "en": "Multidimensional Poverty Index in households headed by women"
+          }
+        }
+      ]
+    },
+    {
+      "id": "violence",
+      "weight": 7,
+      "color": "#9a4968",
+      "title": {
+        "es": "Violencias contra las mujeres",
+        "en": "Violence against women"
+      },
+      "sourceTitle": "Violencias contra las mujeres",
+      "note": {
+        "es": "La definición operativa registra si hubo casos o atenciones en la localidad, aunque las etiquetas de la tabla original se refieren a números (pp. 26–27).",
+        "en": "The operational definition records whether cases or service contacts occurred in the locality, although the original table labels refer to numbers (pp. 26–27)."
+      },
+      "variables": [
+        {
+          "weight": 5,
+          "name": {
+            "es": "Número de delitos de alto impacto por localidad",
+            "en": "Number of high-impact offences by locality"
+          }
+        },
+        {
+          "weight": 2,
+          "name": {
+            "es": "Atenciones a mujeres en riesgo de feminicidio",
+            "en": "Service contacts with women at risk of femicide"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ethnicity",
+      "weight": 1,
+      "color": "#73622d",
+      "title": {
+        "es": "Presencia étnica",
+        "en": "Ethnic presence"
+      },
+      "sourceTitle": "Presencia étnica",
+      "variables": [
+        {
+          "weight": 1,
+          "name": {
+            "es": "Población perteneciente a grupos étnicos por UPZ",
+            "en": "Population belonging to ethnic groups by UPZ"
+          }
+        }
+      ]
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "locality": "Bosa",
+      "code": "85",
+      "upz": "Bosa Central",
+      "score": "0.52688"
+    },
+    {
+      "rank": 2,
+      "locality": "Ciudad Bolívar",
+      "code": "67",
+      "upz": "Lucero",
+      "score": "0.52043"
+    },
+    {
+      "rank": 3,
+      "locality": "Ciudad Bolívar",
+      "code": "64",
+      "upz": "Monteblanco",
+      "score": "0.5183"
+    },
+    {
+      "rank": 4,
+      "locality": "Ciudad Bolívar",
+      "code": "70",
+      "upz": "Jerusalén",
+      "score": "0.50652"
+    },
+    {
+      "rank": 5,
+      "locality": "Ciudad Bolívar",
+      "code": "66",
+      "upz": "San Francisco",
+      "score": "0.50435"
+    },
+    {
+      "rank": 6,
+      "locality": "Antonio Nariño",
+      "code": "35",
+      "upz": "Ciudad Jardín",
+      "score": "0.49765"
+    },
+    {
+      "rank": 7,
+      "locality": "Usaquén",
+      "code": "12",
+      "upz": "Toberín",
+      "score": "0.49444"
+    },
+    {
+      "rank": 8,
+      "locality": "Bosa",
+      "code": "84",
+      "upz": "Bosa Occidental",
+      "score": "0.48888"
+    },
+    {
+      "rank": 9,
+      "locality": "Los Mártires",
+      "code": "102",
+      "upz": "La Sabana",
+      "score": "0.48323"
+    },
+    {
+      "rank": 10,
+      "locality": "Ciudad Bolívar",
+      "code": "69",
+      "upz": "Ismael Perdomo",
+      "score": "0.47762"
+    },
+    {
+      "rank": 11,
+      "locality": "Ciudad Bolívar",
+      "code": "68",
+      "upz": "El Tesoro",
+      "score": "0.47511"
+    }
+  ]
+}

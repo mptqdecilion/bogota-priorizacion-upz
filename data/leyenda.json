@@ -1,0 +1,38 @@
+[
+  {
+    "id": "very-high",
+    "etiqueta": "Muy alto",
+    "color": "#754589",
+    "upz": 22
+  },
+  {
+    "id": "high",
+    "etiqueta": "Alto",
+    "color": "#9101a8",
+    "upz": 22
+  },
+  {
+    "id": "medium",
+    "etiqueta": "Medio",
+    "color": "#c79ed8",
+    "upz": 22
+  },
+  {
+    "id": "low",
+    "etiqueta": "Bajo",
+    "color": "#9dafd7",
+    "upz": 23
+  },
+  {
+    "id": "very-low",
+    "etiqueta": "Muy bajo",
+    "color": "#9ec3d7",
+    "upz": 23
+  },
+  {
+    "id": "not-prioritized",
+    "etiqueta": "No priorizada",
+    "color": "#e1e1e1",
+    "upz": 0
+  }
+]

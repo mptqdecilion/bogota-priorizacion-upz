@@ -1,0 +1,82 @@
+{
+  "fecha_paquete": "2026-10-22",
+  "priorizacion": {
+    "checkedAt": "2026-10-16",
+    "geometryEntity": "Secretaría Distrital de Planeación / IDECA",
+    "geometryUrl": "https://sig.catastrobogota.gov.co/arcgis/rest/services/ordenamientoterritorial/unidadplaneamientozonal/MapServer/0",
+    "displayGeometryUrl": "https://serviciosgis.catastrobogota.gov.co/arcgis/rest/services/ordenamientoterritorial/unidadplaneamientozonal/MapServer/0",
+    "geometryQuery": "where=1%3D1&outFields=CODIGO_UPZ%2CNOMBRE%2CAREA_HECTAREAS%2CACTO_ADMINISTRATIVO&returnGeometry=true&outSR=4326&f=geojson",
+    "displayGeometryQuery": "where=1%3D1&outFields=CODIGO_UPZ%2CNOMBRE&returnGeometry=true&outSR=4326&maxAllowableOffset=0.000002&f=geojson",
+    "officialResponseSha256": "abd98b96044e3de946e3c385605fcf9c276bf7a6f92f79b5ee87a64bc4322a54",
+    "displayResponseSha256": "906c36e387af21e9098e80fd0f49dcba08735b8fa69ac0ac0654c0b7852f13a0",
+    "crs": "EPSG:4326 / CRS84, longitude latitude",
+    "displayGeneralizationDegrees": 2e-06,
+    "maximumDisplayAreaRelativeChange": 5.48829262969619e-05,
+    "categorySource": "SDMujer (2025), Map 1, PDF p.34",
+    "pdfPage": 34,
+    "sourcePdfSha256": "c8665b0596f0fa355b4d58e00411cddb25510d444518feef56dce9bcffbd5f1a",
+    "embeddedImageSha256": "1148564185d4eacdfdf1038bdd61837c720e8581bdc90717e25fee6b5ecc3b5b",
+    "categoryMethod": "Colors recovered by overlaying official polygons on the original map; 3-pixel-eroded interiors, nearest published RGB within distance30, visual review of all112 records. Las Nieves93 corrected to low after label/gutter contamination. No unpublished score calculated.",
+    "registration": {
+      "method": "axis-aligned affine registration, visually verified across four quadrants",
+      "geographicBounds": [
+        -74.223581385,
+        -74.009784693,
+        4.45785995,
+        4.830660934
+      ],
+      "sourcePixelBounds": [
+        240,
+        835,
+        61,
+        1113
+      ],
+      "sensitivityPixels": 2,
+      "quantifiedPositionalAccuracy": null
+    },
+    "geometryVintageNote": "Official response retrieved 16 October2026. Equivalence to the 2025 figure boundary vintage is not certified.",
+    "outsideUPZ": "No category assigned outside the112 official UPZ polygons. Sumapaz is contextual locality geography, not a UPZ classification.",
+    "script": "scripts/recuperar_categorias.py"
+  },
+  "documento": {
+    "author": "Secretaría Distrital de la Mujer",
+    "year": "2025",
+    "title": "Metodología de priorización de los modelos de operación del Sistema Distrital de Cuidado",
+    "url": "https://sistemadecuidado.gov.co/wp-content/uploads/2026/02/Metodologia-Priorizacion-SIDICU-VF.pdf",
+    "pages": {
+      "stages": 14,
+      "construction": "16–18",
+      "variables": "29–31",
+      "weights": 31,
+      "categories": "32–33",
+      "map": 34,
+      "ranking": 35,
+      "limits": "39–40",
+      "territory": "41–44",
+      "approval": 47
+    }
+  },
+  "localidades": {
+    "entity": "Secretaría Distrital de Planeación / IDECA",
+    "url": "https://serviciosgis.catastrobogota.gov.co/arcgis/rest/services/ordenamientoterritorial/localidad/MapServer/0",
+    "dataset": "https://datosabiertos.bogota.gov.co/dataset/localidad-bogota-d-c",
+    "sha256": "4dd83b3ba825c64e11e77a2aa39cbf505d2678a20d5ddba6217642f7b657344f",
+    "query": "where=1%3D1&outFields=LOCNOMBRE%2CLOCCODIGO&outSR=4326&f=geojson"
+  },
+  "localidades_procesamiento": {
+    "tolerancia_grados": 2.5e-05,
+    "decimales": 6,
+    "nota": "Generalización para visualización; no límites prediales ni normativos."
+  },
+  "manzanas": {
+    "consulta_directorio": "2026-10-02",
+    "vigencia_capa": "2025-12-16",
+    "directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+    "capa": "https://sig.catastrobogota.gov.co/arcgis/rest/services/mujeres/manzanascuidado/MapServer",
+    "nota": "26 coordenadas de la capa oficial y una ubicación de El Dorado tomada del destino Maps enlazado en la ficha oficial. Puntos de equipamientos ancla, no perímetros de cobertura."
+  },
+  "licencias_referencias": {
+    "upz": "https://www.arcgis.com/home/item.html?id=de50faa2dd324133bc40eefd34269ac9",
+    "localidades": "https://datosabiertos.bogota.gov.co/dataset/localidad-bogota-d-c"
+  }
+}

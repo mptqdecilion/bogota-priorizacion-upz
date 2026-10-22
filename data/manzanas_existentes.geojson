@@ -1,0 +1,518 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "san-cristobal-20-julio",
+        "nombre": "San Cristobal - 20 de Julio",
+        "consulta_directorio": "2026-10-02",
+        "vigencia_capa": "2025-12-16",
+        "fuente_directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+        "fuente_coordenadas": "https://sig.catastrobogota.gov.co/arcgis/rest/services/mujeres/manzanascuidado/MapServer",
+        "nota_coordenadas": "Official SDMujer anchor point, geographic layer effective 2025-12-16; matched by anchor name and address to the current directory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.09633620600789,
+          4.566824924555537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ciudad-bolivar-arborizadora",
+        "nombre": "Ciudad Bolívar - Arborizadora Alta",
+        "consulta_directorio": "2026-10-02",
+        "vigencia_capa": "2025-12-16",
+        "fuente_directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+        "fuente_coordenadas": "https://sig.catastrobogota.gov.co/arcgis/rest/services/mujeres/manzanascuidado/MapServer",
+        "nota_coordenadas": "Official SDMujer anchor point, geographic layer effective 2025-12-16; matched by anchor name and address to the current directory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.15946391841409,
+          4.568544704468742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "engativa-el-dorado",
+        "nombre": "Engativá - El Dorado",
+        "consulta_directorio": "2026-10-02",
+        "vigencia_capa": null,
+        "fuente_directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+        "fuente_coordenadas": "https://maps.app.goo.gl/A2r7ZpDUAc5zJNus9",
+        "nota_coordenadas": "Place coordinates extracted from the Google Maps destination linked by the current official block page, not the map viewport. The older SDMujer geographic layer still points to Casa de la Mujer Respiro and was not used."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1357972,
+          4.7089722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "suba-la-gaitana",
+        "nombre": "Suba - La Gaitana",
+        "consulta_directorio": "2026-10-02",
+        "vigencia_capa": "2025-12-16",
+        "fuente_directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+        "fuente_coordenadas": "https://sig.catastrobogota.gov.co/arcgis/rest/services/mujeres/manzanascuidado/MapServer",
+        "nota_coordenadas": "Official SDMujer anchor point, geographic layer effective 2025-12-16; matched by anchor name and address to the current directory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.10941898503987,
+          4.741317840597094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kennedy-lago-timiza",
+        "nombre": "Kennedy - Lago Timiza",
+        "consulta_directorio": "2026-10-02",
+        "vigencia_capa": "2025-12-16",
+        "fuente_directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+        "fuente_coordenadas": "https://sig.catastrobogota.gov.co/arcgis/rest/services/mujeres/manzanascuidado/MapServer",
+        "nota_coordenadas": "Official SDMujer anchor point, geographic layer effective 2025-12-16; matched by anchor name and address to the current directory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.15835972813146,
+          4.609788472628384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ciudad-bolivar-ecoparque",
+        "nombre": "Ciudad Bolívar - Ecoparque",
+        "consulta_directorio": "2026-10-02",
+        "vigencia_capa": "2025-12-16",
+        "fuente_directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+        "fuente_coordenadas": "https://sig.catastrobogota.gov.co/arcgis/rest/services/mujeres/manzanascuidado/MapServer",
+        "nota_coordenadas": "Official SDMujer anchor point, geographic layer effective 2025-12-16; matched by anchor name and address to the current directory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.16732735808455,
+          4.577185885292837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "barrios-unidos",
+        "nombre": "Barrios Unidos",
+        "consulta_directorio": "2026-10-02",
+        "vigencia_capa": "2025-12-16",
+        "fuente_directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+        "fuente_coordenadas": "https://sig.catastrobogota.gov.co/arcgis/rest/services/mujeres/manzanascuidado/MapServer",
+        "nota_coordenadas": "Official SDMujer anchor point, geographic layer effective 2025-12-16; matched by anchor name and address to the current directory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08112783784223,
+          4.670115277000193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "antonio-narino",
+        "nombre": "Antonio Nariño",
+        "consulta_directorio": "2026-10-02",
+        "vigencia_capa": "2025-12-16",
+        "fuente_directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+        "fuente_coordenadas": "https://sig.catastrobogota.gov.co/arcgis/rest/services/mujeres/manzanascuidado/MapServer",
+        "nota_coordenadas": "Official SDMujer anchor point, geographic layer effective 2025-12-16; matched by anchor name and address to the current directory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.10316151660342,
+          4.584961775084121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "teusaquillo",
+        "nombre": "Teusaquillo",
+        "consulta_directorio": "2026-10-02",
+        "vigencia_capa": "2025-12-16",
+        "fuente_directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+        "fuente_coordenadas": "https://sig.catastrobogota.gov.co/arcgis/rest/services/mujeres/manzanascuidado/MapServer",
+        "nota_coordenadas": "Official SDMujer anchor point, geographic layer effective 2025-12-16; matched by anchor name and address to the current directory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07365314051769,
+          4.627741512533465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "puente-aranda",
+        "nombre": "Puente Aranda",
+        "consulta_directorio": "2026-10-02",
+        "vigencia_capa": "2025-12-16",
+        "fuente_directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+        "fuente_coordenadas": "https://sig.catastrobogota.gov.co/arcgis/rest/services/mujeres/manzanascuidado/MapServer",
+        "nota_coordenadas": "Official SDMujer anchor point, geographic layer effective 2025-12-16; matched by anchor name and address to the current directory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1240352268894,
+          4.617310110667214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "suba-fontanar",
+        "nombre": "Suba - Fontanar del Río",
+        "consulta_directorio": "2026-10-02",
+        "vigencia_capa": "2025-12-16",
+        "fuente_directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+        "fuente_coordenadas": "https://sig.catastrobogota.gov.co/arcgis/rest/services/mujeres/manzanascuidado/MapServer",
+        "nota_coordenadas": "Official SDMujer anchor point, geographic layer effective 2025-12-16; matched by anchor name and address to the current directory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1130000003424,
+          4.755204999696594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "fontibon",
+        "nombre": "Fontibón",
+        "consulta_directorio": "2026-10-02",
+        "vigencia_capa": "2025-12-16",
+        "fuente_directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+        "fuente_coordenadas": "https://sig.catastrobogota.gov.co/arcgis/rest/services/mujeres/manzanascuidado/MapServer",
+        "nota_coordenadas": "Official SDMujer anchor point, geographic layer effective 2025-12-16; matched by anchor name and address to the current directory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.14175631675373,
+          4.682026978801032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "chapinero",
+        "nombre": "Chapinero",
+        "consulta_directorio": "2026-10-02",
+        "vigencia_capa": "2025-12-16",
+        "fuente_directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+        "fuente_coordenadas": "https://sig.catastrobogota.gov.co/arcgis/rest/services/mujeres/manzanascuidado/MapServer",
+        "nota_coordenadas": "Official SDMujer anchor point, geographic layer effective 2025-12-16; matched by anchor name and address to the current directory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0581762722018,
+          4.63411186126641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tunjuelito",
+        "nombre": "Tunjuelito",
+        "consulta_directorio": "2026-10-02",
+        "vigencia_capa": "2025-12-16",
+        "fuente_directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+        "fuente_coordenadas": "https://sig.catastrobogota.gov.co/arcgis/rest/services/mujeres/manzanascuidado/MapServer",
+        "nota_coordenadas": "Official SDMujer anchor point, geographic layer effective 2025-12-16; matched by anchor name and address to the current directory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.12186494567199,
+          4.556070168095385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "san-cristobal-juan-rey",
+        "nombre": "San Cristóbal - Juan Rey",
+        "consulta_directorio": "2026-10-02",
+        "vigencia_capa": "2025-12-16",
+        "fuente_directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+        "fuente_coordenadas": "https://sig.catastrobogota.gov.co/arcgis/rest/services/mujeres/manzanascuidado/MapServer",
+        "nota_coordenadas": "Official SDMujer anchor point, geographic layer effective 2025-12-16; matched by anchor name and address to the current directory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.09403625926744,
+          4.519584940786264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bosa-campo-verde",
+        "nombre": "Bosa - Campo Verde",
+        "consulta_directorio": "2026-10-02",
+        "vigencia_capa": "2025-12-16",
+        "fuente_directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+        "fuente_coordenadas": "https://sig.catastrobogota.gov.co/arcgis/rest/services/mujeres/manzanascuidado/MapServer",
+        "nota_coordenadas": "Official SDMujer anchor point, geographic layer effective 2025-12-16; matched by anchor name and address to the current directory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.21157949995923,
+          4.624703300409866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ciudad-bolivar-mochuelos",
+        "nombre": "Ciudad Bolívar - Mochuelos",
+        "consulta_directorio": "2026-10-02",
+        "vigencia_capa": "2025-12-16",
+        "fuente_directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+        "fuente_coordenadas": "https://sig.catastrobogota.gov.co/arcgis/rest/services/mujeres/manzanascuidado/MapServer",
+        "nota_coordenadas": "Official SDMujer anchor point, geographic layer effective 2025-12-16; matched by anchor name and address to the current directory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.14817720041846,
+          4.507922499829411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rafael-uribe-uribe",
+        "nombre": "Rafael Uribe Uribe",
+        "consulta_directorio": "2026-10-02",
+        "vigencia_capa": "2025-12-16",
+        "fuente_directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+        "fuente_coordenadas": "https://sig.catastrobogota.gov.co/arcgis/rest/services/mujeres/manzanascuidado/MapServer",
+        "nota_coordenadas": "Official SDMujer anchor point, geographic layer effective 2025-12-16; matched by anchor name and address to the current directory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.12519589964383,
+          4.587095599635046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "engativa-pueblo",
+        "nombre": "Engativá - Pueblo",
+        "consulta_directorio": "2026-10-02",
+        "vigencia_capa": "2025-12-16",
+        "fuente_directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+        "fuente_coordenadas": "https://sig.catastrobogota.gov.co/arcgis/rest/services/mujeres/manzanascuidado/MapServer",
+        "nota_coordenadas": "Official SDMujer anchor point, geographic layer effective 2025-12-16; matched by anchor name and address to the current directory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.14045620031439,
+          4.7154701001597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "centro-santa-fe-candelaria",
+        "nombre": "Centro - Santa Fé / La Candelaria",
+        "consulta_directorio": "2026-10-02",
+        "vigencia_capa": "2025-12-16",
+        "fuente_directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+        "fuente_coordenadas": "https://sig.catastrobogota.gov.co/arcgis/rest/services/mujeres/manzanascuidado/MapServer",
+        "nota_coordenadas": "Official SDMujer anchor point, geographic layer effective 2025-12-16; matched by anchor name and address to the current directory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07239629323064,
+          4.601185247564476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "usaquen",
+        "nombre": "Usaquén",
+        "consulta_directorio": "2026-10-02",
+        "vigencia_capa": "2025-12-16",
+        "fuente_directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+        "fuente_coordenadas": "https://sig.catastrobogota.gov.co/arcgis/rest/services/mujeres/manzanascuidado/MapServer",
+        "nota_coordenadas": "Official SDMujer anchor point, geographic layer effective 2025-12-16; matched by anchor name and address to the current directory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.02406767475007,
+          4.741975395902771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kennedy-bellavista",
+        "nombre": "Kennedy - Bellavista",
+        "consulta_directorio": "2026-10-02",
+        "vigencia_capa": "2025-12-16",
+        "fuente_directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+        "fuente_coordenadas": "https://sig.catastrobogota.gov.co/arcgis/rest/services/mujeres/manzanascuidado/MapServer",
+        "nota_coordenadas": "Official SDMujer anchor point, geographic layer effective 2025-12-16; matched by anchor name and address to the current directory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.17186148680184,
+          4.645791379282763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "los-martires",
+        "nombre": "Los Mártires",
+        "consulta_directorio": "2026-10-02",
+        "vigencia_capa": "2025-12-16",
+        "fuente_directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+        "fuente_coordenadas": "https://sig.catastrobogota.gov.co/arcgis/rest/services/mujeres/manzanascuidado/MapServer",
+        "nota_coordenadas": "Official SDMujer anchor point, geographic layer effective 2025-12-16; matched by anchor name and address to the current directory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07504319987656,
+          4.61173349971173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "usme",
+        "nombre": "Usme",
+        "consulta_directorio": "2026-10-02",
+        "vigencia_capa": "2025-12-16",
+        "fuente_directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+        "fuente_coordenadas": "https://sig.catastrobogota.gov.co/arcgis/rest/services/mujeres/manzanascuidado/MapServer",
+        "nota_coordenadas": "Official SDMujer anchor point, geographic layer effective 2025-12-16; matched by anchor name and address to the current directory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.10874580014236,
+          4.500971600232534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "san-cristobal-cefe",
+        "nombre": "San Cristóbal - CEFE",
+        "consulta_directorio": "2026-10-02",
+        "vigencia_capa": "2025-12-16",
+        "fuente_directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+        "fuente_coordenadas": "https://sig.catastrobogota.gov.co/arcgis/rest/services/mujeres/manzanascuidado/MapServer",
+        "nota_coordenadas": "Official SDMujer anchor point, geographic layer effective 2025-12-16; matched by anchor name and address to the current directory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08517249971402,
+          4.572837099711221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bosa-el-porvenir",
+        "nombre": "Bosa - El Porvenir",
+        "consulta_directorio": "2026-10-02",
+        "vigencia_capa": "2025-12-16",
+        "fuente_directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+        "fuente_coordenadas": "https://sig.catastrobogota.gov.co/arcgis/rest/services/mujeres/manzanascuidado/MapServer",
+        "nota_coordenadas": "Official SDMujer anchor point, geographic layer effective 2025-12-16; matched by anchor name and address to the current directory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.18839970025287,
+          4.642763800249237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ciudad-bolivar-manitas",
+        "nombre": "Ciudad Bolívar - Manitas",
+        "consulta_directorio": "2026-10-02",
+        "vigencia_capa": "2025-12-16",
+        "fuente_directorio": "https://sistemadecuidado.gov.co/directorio-manzanas/",
+        "fuente_coordenadas": "https://sig.catastrobogota.gov.co/arcgis/rest/services/mujeres/manzanascuidado/MapServer",
+        "nota_coordenadas": "Official SDMujer anchor point, geographic layer effective 2025-12-16; matched by anchor name and address to the current directory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.15062020027466,
+          4.5502911995868445
+        ]
+      }
+    }
+  ]
+}

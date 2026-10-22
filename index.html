@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mapa 1 · Priorización por UPZ | Bogotá</title>
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css"><link rel="stylesheet" href="styles.css">
+  <script src="vendor/leaflet/leaflet.js" defer></script><script src="app.js" defer></script>
+</head>
+<body>
+<main>
+  <header><p class="eyebrow">Bogotá · Metodología de priorización 2025</p><h1>Mapa 1 · Priorización por UPZ</h1>
+  <p>112 Unidades de Planeamiento Zonal (UPZ), con las categorías recuperadas del mapa de la Secretaría Distrital de la Mujer. Los puntos muestran 27 equipamientos ancla de Manzanas del Cuidado según el directorio consultado el 2 de octubre de 2026.</p></header>
+  <section class="map-shell" id="map-shell" aria-label="Mapa y controles">
+    <div class="controls">
+      <label for="upz">Consultar una UPZ <select id="upz"><option value="">Seleccione una UPZ</option></select></label>
+      <label for="category">Resaltar prioridad <select id="category"><option value="">Todos los niveles</option></select></label>
+      <button id="fit-upz" type="button">Ver todas las UPZ</button><button id="fit-district" type="button">Ver distrito completo</button>
+      <button id="fullscreen" type="button">Pantalla completa</button>
+    </div>
+    <div id="legend" aria-label="Leyenda de prioridades"></div>
+    <div id="map" role="region" aria-label="Mapa de priorización por UPZ"></div>
+    <div id="detail" role="status">Seleccione una UPZ para consultar su categoría y, cuando esté publicado, su puntaje.</div>
+  </section>
+  <p class="note">Las categorías proceden de una recuperación de colores de la figura de 2025, con revisión visual. No son puntajes recalculados ni una base de categorías descargada del Distrito. Solo se dispone de los 11 puntajes publicados en la Tabla 3. Sumapaz y las demás áreas externas a la capa UPZ son contexto sin clasificación.</p>
+  <section aria-labelledby="downloads-title"><h2 id="downloads-title">Capas y tablas</h2><p>GeoJSON en longitud/latitud (WGS 84, EPSG:4326 / CRS84), compatible con QGIS y otras herramientas de información geográfica. Los controles de capas del mapa permiten mostrar u ocultar los puntos y los límites.</p>
+    <div class="downloads">
+      <a href="data/upz_priorizacion.geojson" download>UPZ con categorías y puntajes publicados · GeoJSON</a>
+      <a href="data/upz_limites.geojson" download>Límites de UPZ · GeoJSON</a>
+      <a href="data/localidades_contexto.geojson" download>Localidades de contexto · GeoJSON</a>
+      <a href="data/manzanas_existentes.geojson" download>Manzanas existentes · puntos GeoJSON</a>
+      <a href="data/categorias_upz.csv" download>Categorías por UPZ · CSV</a>
+      <a href="data/puntajes_publicados.csv" download>11 puntajes publicados · CSV</a>
+      <a href="data/variables_pesos.csv" download>20 variables y pesos publicados · CSV</a>
+    </div>
+  </section>
+  <section><h2>Fuentes y método</h2><p>Geometrías: Secretaría Distrital de Planeación / IDECA. Categorías y puntajes: Secretaría Distrital de la Mujer, <a href="https://sistemadecuidado.gov.co/wp-content/uploads/2026/02/Metodologia-Priorizacion-SIDICU-VF.pdf">Metodología de priorización de los modelos de operación del Sistema Distrital de Cuidado</a> (2025), Mapa 1, p. 34 y Tabla 3, p. 35.</p><p><a href="docs/METODOLOGIA.md">Método y límites</a> · <a href="docs/DICCIONARIO.md">Diccionario de datos</a> · <a href="data/procedencia.json">Procedencia y fechas</a> · <a href="THIRD_PARTY.md">Atribuciones y condiciones de uso</a></p><p>Este recurso documenta una priorización territorial; no mide impacto en salud ni calidad de los servicios.</p></section>
+</main>
+</body></html>

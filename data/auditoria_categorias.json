@@ -1,0 +1,3187 @@
+{
+  "fecha": "2026-10-16",
+  "procedencia": {
+    "checkedAt": "2026-10-16",
+    "geometryEntity": "Secretaría Distrital de Planeación / IDECA",
+    "geometryUrl": "https://sig.catastrobogota.gov.co/arcgis/rest/services/ordenamientoterritorial/unidadplaneamientozonal/MapServer/0",
+    "displayGeometryUrl": "https://serviciosgis.catastrobogota.gov.co/arcgis/rest/services/ordenamientoterritorial/unidadplaneamientozonal/MapServer/0",
+    "geometryQuery": "where=1%3D1&outFields=CODIGO_UPZ%2CNOMBRE%2CAREA_HECTAREAS%2CACTO_ADMINISTRATIVO&returnGeometry=true&outSR=4326&f=geojson",
+    "displayGeometryQuery": "where=1%3D1&outFields=CODIGO_UPZ%2CNOMBRE&returnGeometry=true&outSR=4326&maxAllowableOffset=0.000002&f=geojson",
+    "officialResponseSha256": "abd98b96044e3de946e3c385605fcf9c276bf7a6f92f79b5ee87a64bc4322a54",
+    "displayResponseSha256": "906c36e387af21e9098e80fd0f49dcba08735b8fa69ac0ac0654c0b7852f13a0",
+    "crs": "EPSG:4326 / CRS84, longitude latitude",
+    "displayGeneralizationDegrees": 2e-06,
+    "maximumDisplayAreaRelativeChange": 5.48829262969619e-05,
+    "categorySource": "SDMujer (2025), Map 1, PDF p.34",
+    "pdfPage": 34,
+    "sourcePdfSha256": "c8665b0596f0fa355b4d58e00411cddb25510d444518feef56dce9bcffbd5f1a",
+    "embeddedImageSha256": "1148564185d4eacdfdf1038bdd61837c720e8581bdc90717e25fee6b5ecc3b5b",
+    "categoryMethod": "Colors recovered by overlaying official polygons on the original map; 3-pixel-eroded interiors, nearest published RGB within distance30, visual review of all112 records. Las Nieves93 corrected to low after label/gutter contamination. No unpublished score calculated.",
+    "registration": {
+      "method": "axis-aligned affine registration, visually verified across four quadrants",
+      "geographicBounds": [
+        -74.223581385,
+        -74.009784693,
+        4.45785995,
+        4.830660934
+      ],
+      "sourcePixelBounds": [
+        240,
+        835,
+        61,
+        1113
+      ],
+      "sensitivityPixels": 2,
+      "quantifiedPositionalAccuracy": null
+    },
+    "geometryVintageNote": "Official response retrieved 16 October2026. Equivalence to the 2025 figure boundary vintage is not certified.",
+    "outsideUPZ": "No category assigned outside the112 official UPZ polygons. Sumapaz is contextual locality geography, not a UPZ classification.",
+    "script": "scripts/recuperar_categorias.py"
+  },
+  "recuentos": {
+    "very-high": 22,
+    "high": 22,
+    "medium": 22,
+    "low": 23,
+    "very-low": 23,
+    "not-prioritized": 0
+  },
+  "registros": [
+    {
+      "code": "1",
+      "name": "PASEO DE LOS LIBERTADORES",
+      "category": "low",
+      "automaticCategory": "low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 7,
+        "low": 1772,
+        "very-low": 96,
+        "not-prioritized": 242
+      },
+      "matchingFraction": 0.837034,
+      "registrationPerturbations": [
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 2.0477575245481106e-06
+    },
+    {
+      "code": "2",
+      "name": "LA ACADEMIA",
+      "category": "low",
+      "automaticCategory": "low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 3021,
+        "very-low": 39,
+        "not-prioritized": 87
+      },
+      "matchingFraction": 0.959962,
+      "registrationPerturbations": [
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 3.5391496623349283e-06
+    },
+    {
+      "code": "3",
+      "name": "GUAYMARAL",
+      "category": "very-low",
+      "automaticCategory": "very-low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 61,
+        "very-low": 1761,
+        "not-prioritized": 105
+      },
+      "matchingFraction": 0.913856,
+      "registrationPerturbations": [
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 8.143140888261513e-07
+    },
+    {
+      "code": "9",
+      "name": "VERBENAL",
+      "category": "medium",
+      "automaticCategory": "medium",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 1429,
+        "low": 45,
+        "very-low": 0,
+        "not-prioritized": 27
+      },
+      "matchingFraction": 0.952032,
+      "registrationPerturbations": [
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 3.556688687567089e-06
+    },
+    {
+      "code": "10",
+      "name": "LA URIBE",
+      "category": "low",
+      "automaticCategory": "low",
+      "sourcePixelCounts": {
+        "very-high": 92,
+        "high": 0,
+        "medium": 0,
+        "low": 1145,
+        "very-low": 15,
+        "not-prioritized": 38
+      },
+      "matchingFraction": 0.887597,
+      "registrationPerturbations": [
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.884632716731005e-05
+    },
+    {
+      "code": "11",
+      "name": "SAN CRISTOBAL NORTE",
+      "category": "high",
+      "automaticCategory": "high",
+      "sourcePixelCounts": {
+        "very-high": 75,
+        "high": 588,
+        "medium": 21,
+        "low": 9,
+        "very-low": 11,
+        "not-prioritized": 87
+      },
+      "matchingFraction": 0.743363,
+      "registrationPerturbations": [
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.191361999830498e-05
+    },
+    {
+      "code": "12",
+      "name": "TOBERIN",
+      "category": "very-high",
+      "automaticCategory": "very-high",
+      "sourcePixelCounts": {
+        "very-high": 838,
+        "high": 0,
+        "medium": 23,
+        "low": 14,
+        "very-low": 17,
+        "not-prioritized": 126
+      },
+      "matchingFraction": 0.823183,
+      "registrationPerturbations": [
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.3092735660191757e-05
+    },
+    {
+      "code": "13",
+      "name": "LOS CEDROS",
+      "category": "low",
+      "automaticCategory": "low",
+      "sourcePixelCounts": {
+        "very-high": 11,
+        "high": 3,
+        "medium": 51,
+        "low": 2952,
+        "very-low": 18,
+        "not-prioritized": 51
+      },
+      "matchingFraction": 0.956578,
+      "registrationPerturbations": [
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 2.0979582482483217e-05
+    },
+    {
+      "code": "14",
+      "name": "USAQUEN",
+      "category": "high",
+      "automaticCategory": "high",
+      "sourcePixelCounts": {
+        "very-high": 11,
+        "high": 1787,
+        "medium": 141,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 31
+      },
+      "matchingFraction": 0.907107,
+      "registrationPerturbations": [
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.4032237705352557e-05
+    },
+    {
+      "code": "15",
+      "name": "COUNTRY CLUB",
+      "category": "medium",
+      "automaticCategory": "medium",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 1087,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 27
+      },
+      "matchingFraction": 0.975763,
+      "registrationPerturbations": [
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 7.4578127702285e-06
+    },
+    {
+      "code": "16",
+      "name": "SANTA BARBARA",
+      "category": "medium",
+      "automaticCategory": "medium",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 1935,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 66
+      },
+      "matchingFraction": 0.967016,
+      "registrationPerturbations": [
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 3.724920192293979e-07
+    },
+    {
+      "code": "17",
+      "name": "SAN JOSE DE BAVARIA",
+      "category": "very-low",
+      "automaticCategory": "very-low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 42,
+        "very-low": 1960,
+        "not-prioritized": 0
+      },
+      "matchingFraction": 0.979021,
+      "registrationPerturbations": [
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 3.4752110094071753e-06
+    },
+    {
+      "code": "18",
+      "name": "BRITALIA",
+      "category": "very-low",
+      "automaticCategory": "very-low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 58,
+        "very-low": 1349,
+        "not-prioritized": 0
+      },
+      "matchingFraction": 0.958778,
+      "registrationPerturbations": [
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 3.6778538243797954e-06
+    },
+    {
+      "code": "19",
+      "name": "EL PRADO",
+      "category": "very-low",
+      "automaticCategory": "very-low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 33,
+        "low": 63,
+        "very-low": 1685,
+        "not-prioritized": 42
+      },
+      "matchingFraction": 0.924301,
+      "registrationPerturbations": [
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 5.234418967359211e-05
+    },
+    {
+      "code": "20",
+      "name": "LA ALHAMBRA",
+      "category": "low",
+      "automaticCategory": "low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 6,
+        "low": 1157,
+        "very-low": 4,
+        "not-prioritized": 13
+      },
+      "matchingFraction": 0.980508,
+      "registrationPerturbations": [
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 3.0238308068586406e-06
+    },
+    {
+      "code": "21",
+      "name": "LOS ANDES",
+      "category": "medium",
+      "automaticCategory": "medium",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 1122,
+        "low": 44,
+        "very-low": 0,
+        "not-prioritized": 0
+      },
+      "matchingFraction": 0.962264,
+      "registrationPerturbations": [
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 2.026495481088908e-06
+    },
+    {
+      "code": "22",
+      "name": "DOCE DE OCTUBRE",
+      "category": "low",
+      "automaticCategory": "low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 865,
+        "very-low": 31,
+        "not-prioritized": 138
+      },
+      "matchingFraction": 0.836557,
+      "registrationPerturbations": [
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 4.2729576210653875e-07
+    },
+    {
+      "code": "23",
+      "name": "CASA BLANCA SUBA",
+      "category": "very-low",
+      "automaticCategory": "very-low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 8,
+        "low": 0,
+        "very-low": 1653,
+        "not-prioritized": 116
+      },
+      "matchingFraction": 0.930219,
+      "registrationPerturbations": [
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.0429549812229766e-05
+    },
+    {
+      "code": "24",
+      "name": "NIZA",
+      "category": "medium",
+      "automaticCategory": "medium",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 8,
+        "medium": 3538,
+        "low": 58,
+        "very-low": 0,
+        "not-prioritized": 37
+      },
+      "matchingFraction": 0.971711,
+      "registrationPerturbations": [
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.8015967762075036e-07
+    },
+    {
+      "code": "25",
+      "name": "LA FLORESTA",
+      "category": "low",
+      "automaticCategory": "low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 1070,
+        "very-low": 41,
+        "not-prioritized": 79
+      },
+      "matchingFraction": 0.89916,
+      "registrationPerturbations": [
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 5.019646477810724e-06
+    },
+    {
+      "code": "26",
+      "name": "LAS FERIAS",
+      "category": "medium",
+      "automaticCategory": "medium",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 2077,
+        "low": 1,
+        "very-low": 8,
+        "not-prioritized": 49
+      },
+      "matchingFraction": 0.972834,
+      "registrationPerturbations": [
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 8.953565973079947e-07
+    },
+    {
+      "code": "27",
+      "name": "SUBA",
+      "category": "very-low",
+      "automaticCategory": "very-low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 10,
+        "medium": 18,
+        "low": 0,
+        "very-low": 2924,
+        "not-prioritized": 94
+      },
+      "matchingFraction": 0.959947,
+      "registrationPerturbations": [
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.542526768871788e-06
+    },
+    {
+      "code": "28",
+      "name": "EL RINCON",
+      "category": "high",
+      "automaticCategory": "high",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 3145,
+        "medium": 35,
+        "low": 0,
+        "very-low": 8,
+        "not-prioritized": 75
+      },
+      "matchingFraction": 0.963837,
+      "registrationPerturbations": [
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 3.4216248923080173e-06
+    },
+    {
+      "code": "29",
+      "name": "MINUTO DE DIOS",
+      "category": "high",
+      "automaticCategory": "high",
+      "sourcePixelCounts": {
+        "very-high": 73,
+        "high": 1478,
+        "medium": 5,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 13
+      },
+      "matchingFraction": 0.942001,
+      "registrationPerturbations": [
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 4.090676950951888e-06
+    },
+    {
+      "code": "30",
+      "name": "BOYACA REAL",
+      "category": "very-high",
+      "automaticCategory": "very-high",
+      "sourcePixelCounts": {
+        "very-high": 1574,
+        "high": 0,
+        "medium": 22,
+        "low": 6,
+        "very-low": 2,
+        "not-prioritized": 113
+      },
+      "matchingFraction": 0.916715,
+      "registrationPerturbations": [
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 6.620837450510564e-06
+    },
+    {
+      "code": "31",
+      "name": "SANTA CECILIA",
+      "category": "medium",
+      "automaticCategory": "medium",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 1131,
+        "low": 6,
+        "very-low": 1,
+        "not-prioritized": 55
+      },
+      "matchingFraction": 0.94803,
+      "registrationPerturbations": [
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 9.971063855029882e-06
+    },
+    {
+      "code": "32",
+      "name": "SAN BLAS",
+      "category": "medium",
+      "automaticCategory": "medium",
+      "sourcePixelCounts": {
+        "very-high": 5,
+        "high": 14,
+        "medium": 1157,
+        "low": 25,
+        "very-low": 2,
+        "not-prioritized": 40
+      },
+      "matchingFraction": 0.930813,
+      "registrationPerturbations": [
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 2.41551304518417e-05
+    },
+    {
+      "code": "33",
+      "name": "SOSIEGO",
+      "category": "high",
+      "automaticCategory": "high",
+      "sourcePixelCounts": {
+        "very-high": 9,
+        "high": 859,
+        "medium": 12,
+        "low": 6,
+        "very-low": 3,
+        "not-prioritized": 5
+      },
+      "matchingFraction": 0.96085,
+      "registrationPerturbations": [
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 2.2786926127227325e-05
+    },
+    {
+      "code": "34",
+      "name": "20 DE JULIO",
+      "category": "very-low",
+      "automaticCategory": "very-low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 21,
+        "very-low": 563,
+        "not-prioritized": 160
+      },
+      "matchingFraction": 0.75672,
+      "registrationPerturbations": [
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.6391003818894134e-05
+    },
+    {
+      "code": "35",
+      "name": "CIUDAD JARDIN",
+      "category": "very-high",
+      "automaticCategory": "very-high",
+      "sourcePixelCounts": {
+        "very-high": 250,
+        "high": 0,
+        "medium": 5,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 19
+      },
+      "matchingFraction": 0.912409,
+      "registrationPerturbations": [
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 9.578861437931074e-06
+    },
+    {
+      "code": "36",
+      "name": "SAN JOSE",
+      "category": "low",
+      "automaticCategory": "low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 679,
+        "very-low": 21,
+        "not-prioritized": 42
+      },
+      "matchingFraction": 0.915094,
+      "registrationPerturbations": [
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.2901622968852777e-05
+    },
+    {
+      "code": "37",
+      "name": "SANTA ISABEL",
+      "category": "high",
+      "automaticCategory": "high",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 600,
+        "medium": 9,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 23
+      },
+      "matchingFraction": 0.949367,
+      "registrationPerturbations": [
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.9987962329715003e-07
+    },
+    {
+      "code": "38",
+      "name": "RESTREPO",
+      "category": "medium",
+      "automaticCategory": "medium",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 674,
+        "low": 0,
+        "very-low": 8,
+        "not-prioritized": 176
+      },
+      "matchingFraction": 0.785548,
+      "registrationPerturbations": [
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 2.2902040350825104e-06
+    },
+    {
+      "code": "39",
+      "name": "QUIROGA",
+      "category": "medium",
+      "automaticCategory": "medium",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 1448,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 63
+      },
+      "matchingFraction": 0.958306,
+      "registrationPerturbations": [
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 4.561722862672646e-06
+    },
+    {
+      "code": "40",
+      "name": "CIUDAD MONTES",
+      "category": "low",
+      "automaticCategory": "low",
+      "sourcePixelCounts": {
+        "very-high": 3,
+        "high": 0,
+        "medium": 0,
+        "low": 1821,
+        "very-low": 48,
+        "not-prioritized": 57
+      },
+      "matchingFraction": 0.944012,
+      "registrationPerturbations": [
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 2.08259476529582e-05
+    },
+    {
+      "code": "41",
+      "name": "MUZU",
+      "category": "very-high",
+      "automaticCategory": "very-high",
+      "sourcePixelCounts": {
+        "very-high": 895,
+        "high": 0,
+        "medium": 8,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 38
+      },
+      "matchingFraction": 0.951116,
+      "registrationPerturbations": [
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 5.622750434364221e-06
+    },
+    {
+      "code": "42",
+      "name": "VENECIA",
+      "category": "medium",
+      "automaticCategory": "medium",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 2308,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 206
+      },
+      "matchingFraction": 0.918059,
+      "registrationPerturbations": [
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 3.5776725187952607e-06
+    },
+    {
+      "code": "43",
+      "name": "SAN RAFAEL",
+      "category": "very-low",
+      "automaticCategory": "very-low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0,
+        "very-low": 984,
+        "not-prioritized": 148
+      },
+      "matchingFraction": 0.869258,
+      "registrationPerturbations": [
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.2994643057151478e-06
+    },
+    {
+      "code": "44",
+      "name": "AMERICAS",
+      "category": "high",
+      "automaticCategory": "high",
+      "sourcePixelCounts": {
+        "very-high": 11,
+        "high": 1593,
+        "medium": 3,
+        "low": 0,
+        "very-low": 1,
+        "not-prioritized": 16
+      },
+      "matchingFraction": 0.980911,
+      "registrationPerturbations": [
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.2622751695667844e-05
+    },
+    {
+      "code": "45",
+      "name": "CARVAJAL",
+      "category": "very-high",
+      "automaticCategory": "very-high",
+      "sourcePixelCounts": {
+        "very-high": 1894,
+        "high": 0,
+        "medium": 5,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 21
+      },
+      "matchingFraction": 0.986458,
+      "registrationPerturbations": [
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.4608126801540777e-06
+    },
+    {
+      "code": "46",
+      "name": "CASTILLA",
+      "category": "low",
+      "automaticCategory": "low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 2265,
+        "very-low": 14,
+        "not-prioritized": 50
+      },
+      "matchingFraction": 0.97252,
+      "registrationPerturbations": [
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 2.83049617078035e-07
+    },
+    {
+      "code": "47",
+      "name": "KENNEDY CENTRAL",
+      "category": "high",
+      "automaticCategory": "high",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 1203,
+        "medium": 4,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 34
+      },
+      "matchingFraction": 0.96938,
+      "registrationPerturbations": [
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 2.4178059851553968e-05
+    },
+    {
+      "code": "48",
+      "name": "TIMIZA",
+      "category": "high",
+      "automaticCategory": "high",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 1572,
+        "medium": 35,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 51
+      },
+      "matchingFraction": 0.94813,
+      "registrationPerturbations": [
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.5617219709218588e-05
+    },
+    {
+      "code": "49",
+      "name": "APOGEO",
+      "category": "very-high",
+      "automaticCategory": "very-high",
+      "sourcePixelCounts": {
+        "very-high": 559,
+        "high": 0,
+        "medium": 39,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 35
+      },
+      "matchingFraction": 0.883096,
+      "registrationPerturbations": [
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.5559905014450592e-06
+    },
+    {
+      "code": "50",
+      "name": "LA GLORIA",
+      "category": "low",
+      "automaticCategory": "low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 5,
+        "low": 1169,
+        "very-low": 34,
+        "not-prioritized": 107
+      },
+      "matchingFraction": 0.888973,
+      "registrationPerturbations": [
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 7.237640616608587e-06
+    },
+    {
+      "code": "51",
+      "name": "LOS LIBERTADORES",
+      "category": "high",
+      "automaticCategory": "high",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 1068,
+        "medium": 26,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 17
+      },
+      "matchingFraction": 0.961296,
+      "registrationPerturbations": [
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 7.320172603630937e-06
+    },
+    {
+      "code": "52",
+      "name": "LA FLORA",
+      "category": "high",
+      "automaticCategory": "high",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 441,
+        "medium": 1,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 15
+      },
+      "matchingFraction": 0.964989,
+      "registrationPerturbations": [
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 3.947478758947742e-05
+    },
+    {
+      "code": "53",
+      "name": "MARCO FIDEL SUAREZ",
+      "category": "medium",
+      "automaticCategory": "medium",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 415,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 74
+      },
+      "matchingFraction": 0.848671,
+      "registrationPerturbations": [
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 2.3355030916216712e-05
+    },
+    {
+      "code": "54",
+      "name": "MARRUECOS",
+      "category": "medium",
+      "automaticCategory": "medium",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 1304,
+        "low": 0,
+        "very-low": 1,
+        "not-prioritized": 77
+      },
+      "matchingFraction": 0.94356,
+      "registrationPerturbations": [
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.5111556407765292e-05
+    },
+    {
+      "code": "55",
+      "name": "DIANA TURBAY",
+      "category": "medium",
+      "automaticCategory": "medium",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 646,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 30
+      },
+      "matchingFraction": 0.955621,
+      "registrationPerturbations": [
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.4976894733287338e-06
+    },
+    {
+      "code": "56",
+      "name": "DANUBIO",
+      "category": "very-high",
+      "automaticCategory": "very-high",
+      "sourcePixelCounts": {
+        "very-high": 1106,
+        "high": 0,
+        "medium": 4,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 8
+      },
+      "matchingFraction": 0.989267,
+      "registrationPerturbations": [
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 3.83087020727757e-06
+    },
+    {
+      "code": "57",
+      "name": "GRAN YOMASA",
+      "category": "high",
+      "automaticCategory": "high",
+      "sourcePixelCounts": {
+        "very-high": 1,
+        "high": 2122,
+        "medium": 38,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 23
+      },
+      "matchingFraction": 0.971612,
+      "registrationPerturbations": [
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 3.5076161428726493e-06
+    },
+    {
+      "code": "58",
+      "name": "COMUNEROS",
+      "category": "medium",
+      "automaticCategory": "medium",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 1785,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 115
+      },
+      "matchingFraction": 0.939474,
+      "registrationPerturbations": [
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.2097019388424002e-06
+    },
+    {
+      "code": "59",
+      "name": "ALFONSO LOPEZ",
+      "category": "very-high",
+      "automaticCategory": "very-high",
+      "sourcePixelCounts": {
+        "very-high": 644,
+        "high": 0,
+        "medium": 11,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 31
+      },
+      "matchingFraction": 0.938776,
+      "registrationPerturbations": [
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 4.992035094186775e-07
+    },
+    {
+      "code": "60",
+      "name": "PARQUE ENTRENUBES",
+      "category": "medium",
+      "automaticCategory": "medium",
+      "sourcePixelCounts": {
+        "very-high": 19,
+        "high": 6,
+        "medium": 1331,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 8
+      },
+      "matchingFraction": 0.975806,
+      "registrationPerturbations": [
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 4.463720227665391e-06
+    },
+    {
+      "code": "61",
+      "name": "CIUDAD USME",
+      "category": "high",
+      "automaticCategory": "high",
+      "sourcePixelCounts": {
+        "very-high": 19,
+        "high": 3235,
+        "medium": 115,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 127
+      },
+      "matchingFraction": 0.925343,
+      "registrationPerturbations": [
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 3.5446173018982563e-07
+    },
+    {
+      "code": "62",
+      "name": "TUNJUELITO",
+      "category": "high",
+      "automaticCategory": "high",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 743,
+        "medium": 36,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 85
+      },
+      "matchingFraction": 0.859954,
+      "registrationPerturbations": [
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 2.6320229365994763e-05
+    },
+    {
+      "code": "63",
+      "name": "EL MOCHUELO",
+      "category": "very-high",
+      "automaticCategory": "very-high",
+      "sourcePixelCounts": {
+        "very-high": 1078,
+        "high": 0,
+        "medium": 18,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 40
+      },
+      "matchingFraction": 0.948944,
+      "registrationPerturbations": [
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 8.407505278640315e-07
+    },
+    {
+      "code": "64",
+      "name": "MONTE BLANCO",
+      "category": "very-high",
+      "automaticCategory": "very-high",
+      "sourcePixelCounts": {
+        "very-high": 2751,
+        "high": 0,
+        "medium": 7,
+        "low": 0,
+        "very-low": 1,
+        "not-prioritized": 28
+      },
+      "matchingFraction": 0.987083,
+      "registrationPerturbations": [
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 3.4861557930421228e-06
+    },
+    {
+      "code": "65",
+      "name": "ARBORIZADORA",
+      "category": "high",
+      "automaticCategory": "high",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 869,
+        "medium": 2,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 1
+      },
+      "matchingFraction": 0.99656,
+      "registrationPerturbations": [
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 2.2966065847507267e-05
+    },
+    {
+      "code": "66",
+      "name": "SAN FRANCISCO",
+      "category": "very-high",
+      "automaticCategory": "very-high",
+      "sourcePixelCounts": {
+        "very-high": 506,
+        "high": 0,
+        "medium": 7,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 26
+      },
+      "matchingFraction": 0.938776,
+      "registrationPerturbations": [
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.4537425314653518e-05
+    },
+    {
+      "code": "67",
+      "name": "LUCERO",
+      "category": "very-high",
+      "automaticCategory": "very-high",
+      "sourcePixelCounts": {
+        "very-high": 2582,
+        "high": 0,
+        "medium": 18,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 47
+      },
+      "matchingFraction": 0.975444,
+      "registrationPerturbations": [
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.6646958043153859e-06
+    },
+    {
+      "code": "68",
+      "name": "EL TESORO",
+      "category": "very-high",
+      "automaticCategory": "very-high",
+      "sourcePixelCounts": {
+        "very-high": 736,
+        "high": 0,
+        "medium": 6,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 5
+      },
+      "matchingFraction": 0.985274,
+      "registrationPerturbations": [
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 3.555746160621709e-06
+    },
+    {
+      "code": "69",
+      "name": "ISMAEL PERDOMO",
+      "category": "very-high",
+      "automaticCategory": "very-high",
+      "sourcePixelCounts": {
+        "very-high": 2689,
+        "high": 0,
+        "medium": 12,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 32
+      },
+      "matchingFraction": 0.9839,
+      "registrationPerturbations": [
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 4.151660245477196e-06
+    },
+    {
+      "code": "70",
+      "name": "JERUSALEM",
+      "category": "very-high",
+      "automaticCategory": "very-high",
+      "sourcePixelCounts": {
+        "very-high": 2358,
+        "high": 0,
+        "medium": 12,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 18
+      },
+      "matchingFraction": 0.987437,
+      "registrationPerturbations": [
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 2.6424551369252924e-07
+    },
+    {
+      "code": "71",
+      "name": "TIBABUYES",
+      "category": "low",
+      "automaticCategory": "low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 2874,
+        "very-low": 52,
+        "not-prioritized": 90
+      },
+      "matchingFraction": 0.952918,
+      "registrationPerturbations": [
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 5.175830147030602e-06
+    },
+    {
+      "code": "72",
+      "name": "BOLIVIA",
+      "category": "very-low",
+      "automaticCategory": "very-low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 43,
+        "very-low": 1996,
+        "not-prioritized": 18
+      },
+      "matchingFraction": 0.970345,
+      "registrationPerturbations": [
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 2.5579864437741406e-06
+    },
+    {
+      "code": "73",
+      "name": "GARCES NAVAS",
+      "category": "low",
+      "automaticCategory": "low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 6,
+        "low": 2144,
+        "very-low": 8,
+        "not-prioritized": 50
+      },
+      "matchingFraction": 0.971014,
+      "registrationPerturbations": [
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 3.6065328320455947e-06
+    },
+    {
+      "code": "74",
+      "name": "ENGATIVA",
+      "category": "medium",
+      "automaticCategory": "medium",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 2223,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 78
+      },
+      "matchingFraction": 0.966102,
+      "registrationPerturbations": [
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.1282666393386265e-06
+    },
+    {
+      "code": "75",
+      "name": "FONTIBON",
+      "category": "medium",
+      "automaticCategory": "medium",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 1697,
+        "low": 0,
+        "very-low": 2,
+        "not-prioritized": 174
+      },
+      "matchingFraction": 0.906033,
+      "registrationPerturbations": [
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.0317067273168945e-05
+    },
+    {
+      "code": "76",
+      "name": "FONTIBON SAN PABLO",
+      "category": "very-low",
+      "automaticCategory": "very-low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 13,
+        "very-low": 1377,
+        "not-prioritized": 15
+      },
+      "matchingFraction": 0.980071,
+      "registrationPerturbations": [
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 6.932550509652913e-06
+    },
+    {
+      "code": "77",
+      "name": "ZONA FRANCA",
+      "category": "very-low",
+      "automaticCategory": "very-low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0,
+        "very-low": 1232,
+        "not-prioritized": 89
+      },
+      "matchingFraction": 0.932627,
+      "registrationPerturbations": [
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 3.6603643706056843e-06
+    },
+    {
+      "code": "78",
+      "name": "TINTAL NORTE",
+      "category": "low",
+      "automaticCategory": "low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 1347,
+        "very-low": 13,
+        "not-prioritized": 4
+      },
+      "matchingFraction": 0.987537,
+      "registrationPerturbations": [
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.0735745184509149e-05
+    },
+    {
+      "code": "79",
+      "name": "CALANDAIMA",
+      "category": "medium",
+      "automaticCategory": "medium",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 1162,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 25
+      },
+      "matchingFraction": 0.978939,
+      "registrationPerturbations": [
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 5.932097122407498e-07
+    },
+    {
+      "code": "80",
+      "name": "CORABASTOS",
+      "category": "high",
+      "automaticCategory": "high",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 510,
+        "medium": 20,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 19
+      },
+      "matchingFraction": 0.928962,
+      "registrationPerturbations": [
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.0950670142895191e-05
+    },
+    {
+      "code": "81",
+      "name": "GRAN BRITALIA",
+      "category": "high",
+      "automaticCategory": "high",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 537,
+        "medium": 3,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 3
+      },
+      "matchingFraction": 0.98895,
+      "registrationPerturbations": [
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.8838964781831002e-05
+    },
+    {
+      "code": "82",
+      "name": "PATIO BONITO",
+      "category": "medium",
+      "automaticCategory": "medium",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 1184,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 1
+      },
+      "matchingFraction": 0.999156,
+      "registrationPerturbations": [
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.6652886688506285e-06
+    },
+    {
+      "code": "83",
+      "name": "LAS MARGARITAS",
+      "category": "low",
+      "automaticCategory": "low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 291,
+        "very-low": 29,
+        "not-prioritized": 45
+      },
+      "matchingFraction": 0.79726,
+      "registrationPerturbations": [
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.963144695826813e-05
+    },
+    {
+      "code": "84",
+      "name": "BOSA OCCIDENTAL",
+      "category": "very-high",
+      "automaticCategory": "very-high",
+      "sourcePixelCounts": {
+        "very-high": 1474,
+        "high": 0,
+        "medium": 23,
+        "low": 0,
+        "very-low": 1,
+        "not-prioritized": 77
+      },
+      "matchingFraction": 0.935873,
+      "registrationPerturbations": [
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 7.86473924729858e-06
+    },
+    {
+      "code": "85",
+      "name": "BOSA CENTRAL",
+      "category": "very-high",
+      "automaticCategory": "very-high",
+      "sourcePixelCounts": {
+        "very-high": 3130,
+        "high": 0,
+        "medium": 31,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 56
+      },
+      "matchingFraction": 0.972956,
+      "registrationPerturbations": [
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 6.306925849242084e-06
+    },
+    {
+      "code": "86",
+      "name": "EL PORVENIR",
+      "category": "very-high",
+      "automaticCategory": "very-high",
+      "sourcePixelCounts": {
+        "very-high": 2097,
+        "high": 0,
+        "medium": 2,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 2
+      },
+      "matchingFraction": 0.998096,
+      "registrationPerturbations": [
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 2.743133587113089e-05
+    },
+    {
+      "code": "87",
+      "name": "TINTAL SUR",
+      "category": "very-high",
+      "automaticCategory": "very-high",
+      "sourcePixelCounts": {
+        "very-high": 2311,
+        "high": 0,
+        "medium": 17,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 60
+      },
+      "matchingFraction": 0.967755,
+      "registrationPerturbations": [
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 2.1116156582623447e-05
+    },
+    {
+      "code": "88",
+      "name": "EL REFUGIO",
+      "category": "high",
+      "automaticCategory": "high",
+      "sourcePixelCounts": {
+        "very-high": 2,
+        "high": 1183,
+        "medium": 5,
+        "low": 8,
+        "very-low": 0,
+        "not-prioritized": 3
+      },
+      "matchingFraction": 0.985012,
+      "registrationPerturbations": [
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.3705837737854054e-05
+    },
+    {
+      "code": "89",
+      "name": "SAN ISIDRO - PATIOS",
+      "category": "high",
+      "automaticCategory": "high",
+      "sourcePixelCounts": {
+        "very-high": 1,
+        "high": 184,
+        "medium": 3,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 39
+      },
+      "matchingFraction": 0.810573,
+      "registrationPerturbations": [
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 2.8378436884857194e-06
+    },
+    {
+      "code": "90",
+      "name": "PARDO RUBIO",
+      "category": "low",
+      "automaticCategory": "low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 31,
+        "low": 411,
+        "very-low": 25,
+        "not-prioritized": 108
+      },
+      "matchingFraction": 0.714783,
+      "registrationPerturbations": [
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 5.570322338277478e-06
+    },
+    {
+      "code": "91",
+      "name": "SAGRADO CORAZON",
+      "category": "very-low",
+      "automaticCategory": "very-low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 22,
+        "very-low": 270,
+        "not-prioritized": 24
+      },
+      "matchingFraction": 0.85443,
+      "registrationPerturbations": [
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 7.384738551552417e-06
+    },
+    {
+      "code": "92",
+      "name": "LA MACARENA",
+      "category": "low",
+      "automaticCategory": "low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 105,
+        "very-low": 8,
+        "not-prioritized": 2
+      },
+      "matchingFraction": 0.913043,
+      "registrationPerturbations": [
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.3505858192042197e-05
+    },
+    {
+      "code": "93",
+      "name": "LAS NIEVES",
+      "category": "low",
+      "automaticCategory": "not-prioritized",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 78,
+        "very-low": 38,
+        "not-prioritized": 120
+      },
+      "matchingFraction": 0.330508,
+      "registrationPerturbations": [
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low"
+      ],
+      "visualReview": "low blue interior; gray contamination from label/gutters corrected",
+      "displayAreaRelativeChange": 4.3122050482846674e-05
+    },
+    {
+      "code": "94",
+      "name": "LA CANDELARIA",
+      "category": "high",
+      "automaticCategory": "high",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 189,
+        "medium": 25,
+        "low": 0,
+        "very-low": 8,
+        "not-prioritized": 110
+      },
+      "matchingFraction": 0.569277,
+      "registrationPerturbations": [
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 5.48829262969619e-05
+    },
+    {
+      "code": "95",
+      "name": "LAS CRUCES",
+      "category": "very-high",
+      "automaticCategory": "very-high",
+      "sourcePixelCounts": {
+        "very-high": 44,
+        "high": 0,
+        "medium": 7,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 28
+      },
+      "matchingFraction": 0.556962,
+      "registrationPerturbations": [
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 4.505983791514012e-05
+    },
+    {
+      "code": "96",
+      "name": "LOURDES",
+      "category": "very-high",
+      "automaticCategory": "very-high",
+      "sourcePixelCounts": {
+        "very-high": 572,
+        "high": 0,
+        "medium": 8,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 21
+      },
+      "matchingFraction": 0.951747,
+      "registrationPerturbations": [
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.1434383774377999e-05
+    },
+    {
+      "code": "97",
+      "name": "CHICO LAGO",
+      "category": "high",
+      "automaticCategory": "high",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 1119,
+        "medium": 38,
+        "low": 0,
+        "very-low": 2,
+        "not-prioritized": 63
+      },
+      "matchingFraction": 0.915712,
+      "registrationPerturbations": [
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.253153695712772e-05
+    },
+    {
+      "code": "98",
+      "name": "LOS ALCAZARES",
+      "category": "high",
+      "automaticCategory": "high",
+      "sourcePixelCounts": {
+        "very-high": 12,
+        "high": 1396,
+        "medium": 11,
+        "low": 18,
+        "very-low": 1,
+        "not-prioritized": 80
+      },
+      "matchingFraction": 0.919631,
+      "registrationPerturbations": [
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.4322281489675959e-06
+    },
+    {
+      "code": "99",
+      "name": "CHAPINERO",
+      "category": "medium",
+      "automaticCategory": "medium",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 58,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 33
+      },
+      "matchingFraction": 0.637363,
+      "registrationPerturbations": [
+        "medium",
+        "medium",
+        "medium",
+        "low",
+        "medium",
+        "low",
+        "medium",
+        "very-low",
+        "medium"
+      ],
+      "visualReview": "medium interior visually confirmed; small polygon sensitive to two-pixel registration shifts",
+      "displayAreaRelativeChange": 9.269743172390932e-06
+    },
+    {
+      "code": "100",
+      "name": "GALERIAS",
+      "category": "low",
+      "automaticCategory": "low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 521,
+        "very-low": 48,
+        "not-prioritized": 105
+      },
+      "matchingFraction": 0.772997,
+      "registrationPerturbations": [
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 3.492551036665681e-05
+    },
+    {
+      "code": "101",
+      "name": "TEUSAQUILLO",
+      "category": "low",
+      "automaticCategory": "low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 785,
+        "very-low": 18,
+        "not-prioritized": 25
+      },
+      "matchingFraction": 0.948068,
+      "registrationPerturbations": [
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.3752175333392458e-05
+    },
+    {
+      "code": "102",
+      "name": "LA SABANA",
+      "category": "very-high",
+      "automaticCategory": "very-high",
+      "sourcePixelCounts": {
+        "very-high": 1336,
+        "high": 2,
+        "medium": 21,
+        "low": 0,
+        "very-low": 1,
+        "not-prioritized": 160
+      },
+      "matchingFraction": 0.878947,
+      "registrationPerturbations": [
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high",
+        "very-high"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.4594245817289853e-05
+    },
+    {
+      "code": "103",
+      "name": "PARQUE SALITRE",
+      "category": "low",
+      "automaticCategory": "low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 269,
+        "very-low": 21,
+        "not-prioritized": 38
+      },
+      "matchingFraction": 0.820122,
+      "registrationPerturbations": [
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 7.941676067435566e-06
+    },
+    {
+      "code": "104",
+      "name": "PARQUE SIMON BOLIVAR - CAN",
+      "category": "very-low",
+      "automaticCategory": "very-low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 38,
+        "very-low": 1065,
+        "not-prioritized": 79
+      },
+      "matchingFraction": 0.901015,
+      "registrationPerturbations": [
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 8.781748490727104e-06
+    },
+    {
+      "code": "105",
+      "name": "JARDIN BOTANICO",
+      "category": "very-low",
+      "automaticCategory": "very-low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0,
+        "very-low": 497,
+        "not-prioritized": 15
+      },
+      "matchingFraction": 0.970703,
+      "registrationPerturbations": [
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 7.761199655398343e-06
+    },
+    {
+      "code": "106",
+      "name": "LA ESMERALDA",
+      "category": "very-low",
+      "automaticCategory": "very-low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 17,
+        "very-low": 683,
+        "not-prioritized": 10
+      },
+      "matchingFraction": 0.961972,
+      "registrationPerturbations": [
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 3.8054530639985984e-06
+    },
+    {
+      "code": "107",
+      "name": "QUINTA PAREDES",
+      "category": "very-low",
+      "automaticCategory": "very-low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0,
+        "very-low": 394,
+        "not-prioritized": 30
+      },
+      "matchingFraction": 0.929245,
+      "registrationPerturbations": [
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 3.4507416072360186e-05
+    },
+    {
+      "code": "108",
+      "name": "ZONA INDUSTRIAL",
+      "category": "low",
+      "automaticCategory": "low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 995,
+        "very-low": 43,
+        "not-prioritized": 129
+      },
+      "matchingFraction": 0.852614,
+      "registrationPerturbations": [
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 4.782792419666393e-06
+    },
+    {
+      "code": "109",
+      "name": "CIUDAD SALITRE ORIENTAL",
+      "category": "very-low",
+      "automaticCategory": "very-low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 2,
+        "very-low": 399,
+        "not-prioritized": 57
+      },
+      "matchingFraction": 0.871179,
+      "registrationPerturbations": [
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.8087550100132077e-05
+    },
+    {
+      "code": "110",
+      "name": "CIUDAD SALITRE OCCIDENTAL",
+      "category": "low",
+      "automaticCategory": "low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 885,
+        "very-low": 4,
+        "not-prioritized": 0
+      },
+      "matchingFraction": 0.995501,
+      "registrationPerturbations": [
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low",
+        "low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 2.958911182959767e-05
+    },
+    {
+      "code": "111",
+      "name": "PUENTE ARANDA",
+      "category": "very-low",
+      "automaticCategory": "very-low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 12,
+        "very-low": 1444,
+        "not-prioritized": 13
+      },
+      "matchingFraction": 0.982982,
+      "registrationPerturbations": [
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.7880328508912413e-05
+    },
+    {
+      "code": "112",
+      "name": "GRANJAS DE TECHO",
+      "category": "very-low",
+      "automaticCategory": "very-low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0,
+        "very-low": 1822,
+        "not-prioritized": 58
+      },
+      "matchingFraction": 0.969149,
+      "registrationPerturbations": [
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.2957465939766877e-05
+    },
+    {
+      "code": "113",
+      "name": "BAVARIA",
+      "category": "medium",
+      "automaticCategory": "medium",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 1187,
+        "low": 0,
+        "very-low": 0,
+        "not-prioritized": 26
+      },
+      "matchingFraction": 0.978566,
+      "registrationPerturbations": [
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium",
+        "medium"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.356618134829013e-06
+    },
+    {
+      "code": "114",
+      "name": "MODELIA",
+      "category": "very-low",
+      "automaticCategory": "very-low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 12,
+        "very-low": 988,
+        "not-prioritized": 0
+      },
+      "matchingFraction": 0.988,
+      "registrationPerturbations": [
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 4.855870770203996e-05
+    },
+    {
+      "code": "115",
+      "name": "CAPELLANIA",
+      "category": "very-low",
+      "automaticCategory": "very-low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 5,
+        "very-low": 662,
+        "not-prioritized": 62
+      },
+      "matchingFraction": 0.908093,
+      "registrationPerturbations": [
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 7.062525700929356e-06
+    },
+    {
+      "code": "116",
+      "name": "ALAMOS",
+      "category": "very-low",
+      "automaticCategory": "very-low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0,
+        "very-low": 281,
+        "not-prioritized": 44
+      },
+      "matchingFraction": 0.864615,
+      "registrationPerturbations": [
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 6.773918236557819e-06
+    },
+    {
+      "code": "117",
+      "name": "AEROPUERTO EL DORADO",
+      "category": "very-low",
+      "automaticCategory": "very-low",
+      "sourcePixelCounts": {
+        "very-high": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 39,
+        "very-low": 3277,
+        "not-prioritized": 17
+      },
+      "matchingFraction": 0.983198,
+      "registrationPerturbations": [
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low",
+        "very-low"
+      ],
+      "visualReview": "category checked against original Map 1",
+      "displayAreaRelativeChange": 1.1174461955754111e-06
+    }
+  ]
+}
