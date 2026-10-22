@@ -1,5 +1,6 @@
 """Validaciones de integridad y reconstrucción del paquete público."""
 import csv
+import hashlib
 import json
 from collections import Counter
 from pathlib import Path
@@ -48,6 +49,9 @@ for f in data['features']:
         assert -75 < lon < -73 and 3 < lat < 5.5
 assert not any(ROOT.rglob('*.pdf')), 'El paquete no redistribuye los documentos completos'
 assert (ROOT/'vendor/leaflet/LICENSE.txt').exists()
+for line in (ROOT/'data/SHA256SUMS.txt').read_text(encoding='utf-8').splitlines():
+    expected_hash, filename = line.split('  ', 1)
+    assert hashlib.sha256((ROOT/'data'/filename).read_bytes()).hexdigest()==expected_hash, filename
 print(json.dumps({'upz':112,'localidades':20,'manzanas':27,'puntajes_publicados':11,
                   'variables':20,'suma_pesos_publicados':99,'categorias':expected,
                   'reconstruccion_geojson':'coincide'},ensure_ascii=False))
