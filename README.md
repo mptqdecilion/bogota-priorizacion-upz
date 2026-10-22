@@ -22,6 +22,8 @@ Las capas se pueden abrir directamente en QGIS. El formato GeoJSON usa WGS 84, c
 
 ## Abrir el mapa
 
+**[Ver el mapa interactivo en línea](https://mptqdecilion.github.io/bogota-priorizacion-upz/)**, sin descargar el repositorio. GitHub Pages publica los archivos de la raíz de `main` y se actualiza después de cada cambio en esa rama. Las capas y las tablas también se pueden descargar desde el mapa.
+
 La interfaz utiliza **JavaScript y Leaflet**, HTML y CSS. No necesita compilación, npm, claves API ni paquetes instalados.
 
 Con Node.js ya instalado, desde esta carpeta:
